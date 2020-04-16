@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>S-BLOG</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<!-- 타이틀 -->
+	<div>
+		<h1> Daily Record of Seryeong</h1>
+		<P> 안녕 ! 난 <a href="#introduce">세령</a> 이라고 해 </p>
+	</div>
+	<!--메뉴 -->
+	<div>
+		<table>
+			<tr>
+				<td><a href="http://www.naver.com/" target="-blank">Daily</a></td>
+				<td><a href="http://www.naver.com/" target="-blank">Trip</a></td>
+				<td><a href="http://www.naver.com/" target="-blank">Review</a></td>
+			</tr>
+		</table>
+	</div>
+	<br>
+	<br>
+	<!--로그인-->
+	<div>
+		<form action="#" method="POST">
+		<label for="user-id">아이디</label>
+		<input type="text" name="user-id" id="user-id">
+		<label for="user-pw">비밀번호</label>
+		<input type="password" name="user-pw" id="user-pw">
+		<button type="submit">Login</button>
+		</form>
+	</div>
+	<br><br>
+	<!-- 게시글 작성 폼-->
+	<div>
+		<form action="#" method="POST">
+			<label for="category">Category</label>
+			<select id="category" name="Category">
+				<option>Daily</option>
+				<option>Trip</option>
+				<option>Review</option>
+			</select>
+			<label for="text-title"> Title </label>
+			<input type="text" id="text-title" name="Title">
+			<br>
+		</div>
+	<div>
+		<label for="body">Body</label>
+		<textarea id="body" cols="40" rows="25"></textarea>
+		<br>
+		<button type="submit">Submit</button>
+		<button type="reset">Reset</button>
+
+	</div>
+	</form>
+	<br><br>
+	
+	<!--자기소개-->
+	<div id="introduce">
+		<h3><strong>Who Am I</strong></h3>
+		<img src="me.jpg" width="315" height="330" alt=" 세령 "/>
+		<p>Name : <em>KimSeryeong</em> | Major : Semiconductor Engineering
+		<p>Phone number : 010-2808-8516 | Mail adress : seryeong7@naver.com</p>
+	</div>
+	<br><br>
+	<!--좋아하는거 소개-->
+	<div>
+		<h3><strong>What I like</strong></h3>
+		<ul>
+			<li>여행</li>
+			<li>맛있는 거 먹기</li>
+			<li>하루종일 침대에서 뒹굴거리기</li>
+			<li></li>
+		</ul>
+	</div>
+
+	
+
+
+
+</body>
+</html>
